@@ -18,9 +18,9 @@ class Echo(commands.Cog):
     async def echo(
         self,
         ctx: discord.ApplicationContext,
-        message: discord.Option(str,"Say something", required=True),
+        user: discord.Option(discord.Member, "Select a Nigger", required=True)
     ):
-        await ctx.respond(message)
+        await ctx.respond(f"{user} is a Nigger.")
         
 def setup(bot):
     """Required setup function for automatic loading"""
