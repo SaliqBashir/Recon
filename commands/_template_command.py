@@ -76,9 +76,9 @@ class TemplateCommand(commands.Cog):
     async def template_message_action(self, ctx: discord.ApplicationContext, message: discord.Message):
         await ctx.respond(f"You used the template action on a message by {message.author.mention}!", ephemeral=True)
 
-async def setup(bot):
+def setup(bot):
     """Required setup function for automatic loading"""
-    await bot.add_cog(TemplateCommand(bot))
+    bot.add_cog(TemplateCommand(bot))
     print(f"Command '{COMMAND_NAME}' registered successfully")
 
 # ====== DEVELOPMENT NOTES ======
