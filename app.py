@@ -11,7 +11,7 @@ class DiscordBot(discord.Bot):
     def __init__(self):
         super().__init__(
             intents=discord.Intents.all(),
-            debug_guilds=[os.getenv("DEVGUILD")]  # Instant slash command registration for your test server
+            debug_guilds=[int(os.getenv("DEVGUILD"))] if os.getenv("DEVGUILD") else None  # Instant slash command registration for your test server
         )
         self.loaded_commands = set()
         self.loaded_events = set()
