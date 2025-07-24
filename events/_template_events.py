@@ -141,7 +141,7 @@ class TemplateEvents(discord.Cog):
 async def setup(bot):
     """Required setup function for automatic loading"""
     await bot.add_cog(TemplateEvents(bot))
-    print(f"Events '{EVENT_NAME}' registered successfully")
+    print(f"🔧 Events '{EVENT_NAME}' registered successfully")
 
 # ====== DEVELOPMENT NOTES ======
 """
