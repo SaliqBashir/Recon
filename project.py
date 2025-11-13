@@ -105,7 +105,7 @@ class DiscordBot(discord.Bot):
             except Exception as e:
                 print(f"❌ Failed to reload event {module_name}: {e}")
 
-# Initialize bot
+# Initialize Bot
 bot = DiscordBot()
 
 @bot.event
