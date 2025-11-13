@@ -121,8 +121,7 @@ async def on_ready():
     print(f"Loaded {len(bot.loaded_commands)} commands and {len(bot.loaded_events)} events")
     print("=" * 50)
 
-# Run the bot
-if __name__ == "__main__":
+def main():
     try:
         token = os.getenv('TOKEN')
         if not token:
@@ -132,3 +131,7 @@ if __name__ == "__main__":
         bot.run(token)
     except Exception as e:
         print(f"Failed to start bot: {e}")
+
+# Run the bot
+if __name__ == "__main__":
+    main()
