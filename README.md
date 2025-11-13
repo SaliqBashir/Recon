@@ -235,35 +235,16 @@ python app.py
 - **Virtual Environment**: Isolated dependencies
 - **Git**: Version control and collaboration
 
-## 📝 Contributing
-
-Contributions are welcome! Please follow these guidelines:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
+## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Support
+## 🤝 Contributing
 
-For issues, questions, or suggestions:
-- Open a [GitHub Issue](https://github.com/SaliqBashir/Recon/issues)
-- Contact through Discord
-- Submit a Pull Request
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
-Connect with me for collaborations or opportunities:
-- GitHub: [@SaliqBashir](https://github.com/SaliqBashir)
-- LinkedIn: [Your LinkedIn Profile]
+For any questions or suggestions, please reach out through GitHub issues or connect with me on LinkedIn.
 
 ---
-
-*Built with 🎮 using Python, discord.py, and modern async programming*
-
-**⭐ Star this repository if you find it helpful!**
